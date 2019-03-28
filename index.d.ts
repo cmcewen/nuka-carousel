@@ -195,6 +195,11 @@ export interface CarouselProps {
   initialSlideWidth?: number;
 
   /**
+   * Callback when the carousel begins dragging
+   */
+  onDragStart?: () => void;
+
+  /**
    * Window onResize callback
    */
   onResize?: () => void;
